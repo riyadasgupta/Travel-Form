@@ -16,12 +16,7 @@ This is a simple PHP-based web application where users can submit their details 
 
 ##  Folder Structure
 
-main_project/
-├── index.php       # Main PHP application logic and HTML form
-├── style.css       # Stylesheet for the travel form page
-├── index.js        # JavaScript file (optional, currently empty)
-├── bg.avif         # Background image used in the form UI
-├── README.md       # Project overview and setup instructions (this file)
+<pre> main_project/ ├── index.php # Main PHP application logic and HTML form ├── style.css # Stylesheet for the travel form UI ├── index.js # JavaScript file (optional, currently empty) ├── bg.avif # Background image used in the form ├── README.md # Project documentation └── .gitignore # Git ignored files (optional) </pre>
 
 
 
