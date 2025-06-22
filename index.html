@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class = "bg" src="bg.avif" alt="travel">
+    <div class="container">
+        <h1>Welcome to Travel Form </h1><br>
+        <p>Enter your details and submit this form to confirm your participation in the trip</p>
+        <p class="submitMsg">(Thanks for submitting the form. We are excited to see you joining with us.)</p>
+
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+            <input type="text" name="contact" id="contact" placeholder="Enter your phone number">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any queries"></textarea>
+            <button class="btn">Submit</button>
+            <button class="btn">Reset</button>
+
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+    <!-- INSERT INTO `trip` (`S.NO`, `Name`, `Age`, `Gender`, `Email`, `Contact No`, `Other`, `dt`) VALUES ('1', 'test_name', '23', 'male', 'this@this.com', '9999999999', 'this is my php project', current_timestamp()); -->
+    
+</body>
+</html>
